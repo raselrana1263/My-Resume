@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px gray;
+}
+
+.container .left-side{
+    position: relative;
+    background:steelblue;
+    padding: 35px;
+}
+
+.profile-info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 18px;
+    border-bottom: 1px solid lightslategray;
+}
+
+.profile-info .image{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-info .image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.profile-info h2{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 650;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.2em;
+}
+
+.contact-info{
+    padding-top: 30px;
+}
+
+
+.title{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+}
+
+.contact-info ul{
+    position: relative;
+}
+
+.contact-info ul li{
+    position: relative;
+    list-style: none;
+    margin: 8px 0;
+}
+
+.contact-info ul li .icon{
+    display: inline-block;
+    width: 20px;
+    font-size: 16px;
+    color:mediumturquoise;
+}
+
+.contact-info ul li span{
+    color: white;
+    font-weight: 400;
+}
+
+.educational-info h3{
+    padding-top: 10px;
+}
+.educational-info li{
+    margin-bottom: 15px;
+    list-style: none;
+}
+.educational-info h4{
+    color:black;
+}
+.educational-info h5{
+    color: white;
+    font-weight: 500;
+}
+
+.leadership h4{
+    padding-top: 10px;
+}
+
+.leadership ul li {
+    list-style: none;
+}
+.leadership ul li h5{
+    color: white;
+    font-weight: 300;
+}
+
+.container .right-side{
+    position: relative;
+    background:whitesmoke;
+    padding: 35px;
+}
+
+.about-heading{
+    color:cadetblue;
+    text-transform: uppercase;
+}
+
+p{
+    color: #333;
+}
+
+.job-exp{
+    color: #333;
+    padding-top: 15px;
+}
+.job-exp h4{
+    text-transform: uppercase;
+    color: #003147;
+    font-size: 16px;
+}
+.skills h2{
+    margin-top: 20px;
+}
+.skill-tools{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.skill-tools h4{
+    font-weight: 500;
+}
+.tools{
+    padding-top: 15px;   
+}
+.about h2{
+    padding-top: 40px;
+}
+.certificates h4{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+.references h2{
+    margin-top: 30px;
+}
+.References-name{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.name{
+    margin-top: 20px;
+}
+.name h5{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 5px;
+}
